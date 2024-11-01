@@ -142,9 +142,9 @@ public class MyDemoLoggingClass extends MyDemoGeneralPointCuts{
             System.out.println("Total duration (in seconds): " + duration/1000);
 
             return result;
-        } catch (Exception e) {
-            System.out.println("@Around Adivce: We had a problem here: " +  e);
-            throw e;
+        } catch (Exception exc) {
+            System.out.println("@Around Adivce: We had a problem here: " +  exc);
+            throw exc;
         }
 
     }
